@@ -1,6 +1,27 @@
-# Neural Networks Prediction App
 
-This project is part of the CST2216 Individual Term Project. It demonstrates a neural network model built using TensorFlow/Keras to predict admission chance for graduate school applications based on GRE Score, TOEFL Score, University Rating, SOP, LOR, CGPA, and Research. The project is modular and is deployed as a Streamlit app.
+# University Admission Prediction 🎓
 
-## Project Structure
+## Overview
+A powerful neural network-based Streamlit app to predict university admission chances. The model leverages TensorFlow and Keras for predictive analysis.
 
+## 📁 Project Structure
+```
+.
+├── app.py
+├── scripts
+│   └── train.py
+├── models
+│   └── model.h5
+├── utils
+│   ├── preprocessing.py
+│   └── logger.py
+└── data
+    └── Admission.csv
+```
+
+## 🚧 Setup Instructions
+- Clone repository and install dependencies with `pip install -r requirements.txt`
+- Run Streamlit app with `streamlit run app.py`
+
+## 🛠️ Technologies
+- Python, Pandas, TensorFlow, Keras, Streamlit
